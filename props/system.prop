@@ -23,3 +23,7 @@ ro.mist.front=16MP
 ro.mist.platform=SM7435-AB
 ro.mist.screen=6.67' QHD AMOLED
 ro.mist.device.name=Xiaomi Redmi Note 13 Pro 5G
+
+# Logging optimization
+persist.logd.size=1M
+logd.size=1M
