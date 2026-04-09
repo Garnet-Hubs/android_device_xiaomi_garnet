@@ -180,6 +180,7 @@ on boot
     chown system system /sys/class/thermal/thermal_message/balance_mode
     chown cameraserver cameraserver /sys/class/thermal/thermal_message/flash_state
     chown system system /sys/module/perf_helper/mimd/mimdtrigger
+    write /proc/sys/kernel/sched_boost 0
     write /dev/cpuset/audio-app/cpus 0-7
     # Add a cpuset for the camera daemon
     # We want all cores for camera
