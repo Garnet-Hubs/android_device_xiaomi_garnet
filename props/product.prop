@@ -13,3 +13,17 @@ bluetooth.profile.opp.enabled=true
 bluetooth.profile.pan.nap.enabled=true
 bluetooth.profile.pan.panu.enabled=true
 bluetooth.profile.pbap.server.enabled=true
+
+# LMKD
+ro.lmk.use_psi=true
+ro.lmk.kill_heaviest_task=true
+ro.lmk.use_minfree_levels=false
+ro.lmk.low=700
+ro.lmk.medium=800
+ro.lmk.critical=900
+ro.lmk.psi_partial_stall_ms=100
+ro.lmk.psi_complete_stall_ms=900
+ro.lmk.swap_util_max=55
+ro.lmk.swap_free_low_percentage=30
+ro.lmk.kill_timeout_ms=250
+ro.lmk.downgrade_pressure=50
